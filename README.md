@@ -12,7 +12,7 @@ The cluster currently runs a bookmark application and is designed as a hands-on 
 * **Configuration:** Kubernetes manifests managed in Git
 * **Storage:** Kubernetes PersistentVolumeClaim
 * **Container security:** Application runs as a non-root user
-* **Remote access:** Cloudflare Tunnel
+* **Remote access:** Cloudflare Tunnel (Temporarily turned off)
 * **Server access:** SSH key-based authentication
 * **Repository:** Public GitHub repository
 
