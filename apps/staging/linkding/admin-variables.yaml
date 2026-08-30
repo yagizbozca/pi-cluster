@@ -1,0 +1,22 @@
+apiVersion: v1
+data:
+    LD_SUPERUSER_NAME: ENC[AES256_GCM,data:b+Dv8FDa2Ek=,iv:200hrW3cpvT87FuaxdT8afwMen+vr+NY+UfzI+CoYm4=,tag:J2GLh43QsMa8/sLOOg8STQ==,type:str]
+    LD_SUPERUSER_PASSWORD: ENC[AES256_GCM,data:u+2KlzpHFfbhj2T0,iv:6/0mQJSCL66YwngttgszkMWpxNUMw/mHjHif0+eBNl0=,tag:qTCWZPqI5OO4q3XIWqxrGQ==,type:str]
+kind: Secret
+metadata:
+    name: admin-variables
+sops:
+    age:
+        - enc: |
+            -----BEGIN AGE ENCRYPTED FILE-----
+            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBXMFM1OTlkUG5iMDZXcGNO
+            eUdCMUtNSUhLMnIvRDlINnNFSDFsOENkcHowCnRqR0pjSi9wWGlOTVhWMGRQYURW
+            aTB6Tk4zZnllTHR4RkpJSHVNK2J2bmcKLS0tIDVvMkFnazhzSFZhVnpNVkxSRFhB
+            eWRiRk4relBSTHd1bW5PQm85cHlEQ3MKDyRSFWln9GPOh/jqdexmDA5EIDdG8jPt
+            JNRchb0ttXV3EyarLtI9fpZVq1UxH87DBiLQfblqhOFCHrIE5K2/cQ==
+            -----END AGE ENCRYPTED FILE-----
+          recipient: age1qxgeq7aks6qmdwjpy5q23p85n62q89lp6ekgvkfp62ajsjkzdeyqsgk3l0
+    encrypted_regex: ^(data)$
+    lastmodified: "2026-08-30T15:48:04Z"
+    mac: ENC[AES256_GCM,data:YHXgzk6ZD743KXf7aUPreHT5AyAp02mZls+EBBQxk9rWv/kFWTrA2GIkuVkt5OmLp2P/veKrhHAFrRvRtIO/Tb9XxyT6I7DFvbNkNMTY8vfMIs/S5VwvALSBiUOhfcMZPZgHSIsQHp+HAqhAd+esTho4EhjZ515TbCTXfL7Y1q8=,iv:B+NHq4AIE6KT7g4f4wXb95K7dOxk4HFmUQbMuH2EUyc=,tag:7uMEyJn3vFmeU42NeMjlYw==,type:str]
+    version: 3.13.3
