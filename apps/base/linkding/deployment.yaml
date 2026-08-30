@@ -25,6 +25,9 @@ spec:
               name: linkding-data-pv
           securityContext:
             allowPrivilegeEscalation: false
+          envFrom:
+            - secretRef:
+                name: admin-variables
       volumes:
         - name: linkding-data-pv
           persistentVolumeClaim:
